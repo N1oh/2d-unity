@@ -179,6 +179,7 @@ public class TalkManager : MonoBehaviour
         talkData.Add(60 + 2700, new string[] { "", "크으으으으으......:1" });
         talkData.Add(2800, new string[] { " 'I'키를 누르면 가방을 열수있어:0" });
         talkData.Add(2900, new string[] { "땅에 떨어져있는 복주머니를 주워가자!:0" });
+        talkData.Add(5900, new string[] { "장승이다!:0" });
 
 
 
@@ -227,6 +228,7 @@ public class TalkManager : MonoBehaviour
         portraitData.Add(2800 + 0, portraitArr[2]);
         portraitData.Add(2900 + 0, portraitArr[2]);
         portraitData.Add(4000 + 0, portraitArr[2]);
+        portraitData.Add(5900 + 0, portraitArr[2]);
 
 
         portraitData.Add(5000 + 0, portraitArr[0]);

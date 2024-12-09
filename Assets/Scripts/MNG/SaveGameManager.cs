@@ -89,7 +89,8 @@ public class SaveGameManager : MonoBehaviour
         int questId = PlayerPrefs.GetInt("QuestId");
         int questActionIndex = PlayerPrefs.GetInt("QuestActionIndex");
 
-        player.transform.position = new Vector3(x, y, 0);
+        // Y 좌표에서 1을 빼서 설정
+        player.transform.position = new Vector3(x, y - 2, 0);
         questManager.questId = questId;
         questManager.questActionIndex = questActionIndex;
 
